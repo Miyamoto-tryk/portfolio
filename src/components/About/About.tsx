@@ -24,9 +24,7 @@ export const About = () => {
         <Stack
           // spacing={2}
           direction="row"
-          useFlexGap
-          flexWrap="wrap"
-          justifyContent="space-between"
+          justifyContent="center"
           alignItems="center"
           sx={{ height: "150px" }}
         >
@@ -56,7 +54,7 @@ export const About = () => {
               height: "100%",
             }}
           ></Box>
-          <Spacer size={30} horizontal={true} />
+
           <NameCard></NameCard>
         </Stack>
         <Spacer size={10} />
