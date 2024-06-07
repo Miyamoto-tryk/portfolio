@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Box, Stack, Typography } from "@mui/material";
 import { nameFont } from "@/utils/font";
+import { Works } from "@/components/Works";
 
 export default function Home() {
   return (
@@ -122,6 +123,7 @@ export default function Home() {
           </Stack>
         </Stack>
       </Stack>
+      <Works></Works>
       <Stack spacing={2} direction="row" marginTop="5px">
         {/* <Box
           sx={{
