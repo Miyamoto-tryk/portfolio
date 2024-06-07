@@ -12,9 +12,9 @@ export const Works = () => {
       <Stack direction={"row"} justifyContent={"center"}>
         <Stack
           direction="column"
-          sx={{ borderRadius: 2, backgroundColor: "GrayText", width: "80%" }}
+          sx={{ borderRadius: 2, backgroundColor: "Gray", width: "80%" }}
         >
-          <Link sx={{}} href="https://population-graph-seven.vercel.app/">
+          <Link href="https://population-graph-seven.vercel.app/">
             <Box>都道府県別人口推移グラフ</Box>
             <Box
               justifyContent="center"
