@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Box, Stack, Typography } from "@mui/material";
 import { nameFont } from "@/utils/font";
-import { Works } from "@/components/Works";
+import { Works } from "@/components/Works/Works";
 import { About } from "@/components/About/About";
 
 export default function Home() {
