@@ -51,6 +51,8 @@ export const Works = () => {
                 初めてデプロイしたwebアプリケーション。チェックを付けることで動的にグラフを生成。
                 <li>TypeScript</li>
                 <li>React/Next.js</li>
+                <li>Recharts</li>
+                <li>Jest</li>
                 <li>レスポンシブデザイン対応</li>
               </Box>
             </Stack>
