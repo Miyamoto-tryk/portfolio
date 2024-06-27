@@ -3,6 +3,8 @@ import { Box, Stack, Typography } from "@mui/material";
 import { nameFont } from "@/utils/font";
 import { Works } from "@/components/Works/Works";
 import { About } from "@/components/About/About";
+import { TodoApp } from "@/components/Works/TodoApp";
+import { Spacer } from "@/utils/Spacer";
 
 export default function Home() {
   return (
@@ -33,7 +35,11 @@ export default function Home() {
       </Stack>
 
       <About />
-      <Works />
+      <Stack direction={"column"} alignItems={"center"}>
+        <Works />
+        <Spacer size={20} />
+        <TodoApp />
+      </Stack>
       <Stack spacing={2} direction="row" marginTop="5px"></Stack>
     </>
   );
