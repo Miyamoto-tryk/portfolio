@@ -5,13 +5,15 @@ import { Spacer } from "@/utils/Spacer";
 export const TodoApp = () => {
   return (
     <>
-      <Stack direction={"column"} alignItems={"center"} sx={{ width: "80%" }}>
+      <Stack direction={"row"} justifyContent={"center"} sx={{ width: "80%" }}>
+        <Spacer size={20} />
         <Stack
           direction="column"
           sx={{
             borderRadius: 2,
             backgroundColor: "Gray",
-            width: "100%",
+            width: 700,
+
             border: "3px solid rgba(255,255,255,0.3)",
           }}
           alignItems={"flex-start"}
@@ -54,6 +56,7 @@ export const TodoApp = () => {
           </Stack>
           <Spacer size={20} />
         </Stack>
+        <Spacer size={20} />
       </Stack>
     </>
   );
